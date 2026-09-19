@@ -112,7 +112,7 @@ android {
             "TEST_SERVER_PASSWORD" to ncTestServerPassword.toString(),
             "disableAnalytics" to "true"
         )
-        applicationId = "com.nextcloud.client"
+        applicationId = "city.cloudmail.cmc"
         minSdk = 28
         targetSdk = 36
         compileSdk = 37
@@ -155,29 +155,29 @@ android {
         productFlavors {
             // used for f-droid
             register("generic") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "city.cloudmail.cmc"
                 dimension = "default"
             }
 
             register("gplay") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "city.cloudmail.cmc"
                 dimension = "default"
             }
 
             register("huawei") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "city.cloudmail.cmc"
                 dimension = "default"
             }
 
             register("versionDev") {
-                applicationId = "com.nextcloud.android.beta"
+                applicationId = "city.cloudmail.cmc.beta"
                 dimension = "default"
                 versionCode = 20220322
                 versionName = "20220322"
             }
 
             register("qa") {
-                applicationId = "com.nextcloud.android.qa"
+                applicationId = "city.cloudmail.cmc.qa"
                 dimension = "default"
                 versionCode = 1
                 versionName = "1"

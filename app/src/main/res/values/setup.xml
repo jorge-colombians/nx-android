@@ -11,7 +11,7 @@
     <bool name="dev_version_direct_download_enabled">false</bool>
 
     <!-- App name  and other strings-->
-    <string name="app_name">Nextcloud</string>
+    <string name="app_name">CMC</string>
     <string name="account_type">nextcloud</string>     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
     <string name="authority">org.nextcloud</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
     <string name="users_and_groups_search_authority">com.nextcloud.android.providers.UsersAndGroupsSearchProvider</string>
@@ -22,14 +22,14 @@
     <string name="db_file">nextcloud.db</string>
     <string name="db_name">nextcloud</string>
     <string name="data_folder">nextcloud</string>
-    <string name="default_display_name_for_root_folder">Nextcloud</string>
+    <string name="default_display_name_for_root_folder">CMC</string>
     <string name="nextcloud_user_agent">Mozilla/5.0 (Android) Nextcloud-android/%1$s%2$s</string>
     <string name="office_user_agent">Mozilla/5.0 (Android %1$s) Mobile Nextcloud-android/%2$s</string>
     <string name="name_for_branded_user_agent"></string>
 
     <!-- URLs and flags related -->
-    <bool name="show_server_url_input">true</bool>
-    <bool name="show_provider_or_own_installation">true</bool>
+    <bool name="show_server_url_input">false</bool>
+    <bool name="show_provider_or_own_installation">false</bool>
     <string name="provider_registration_server">https://www.nextcloud.com/register</string>
 
     <!-- specify built in proxy -->
@@ -50,7 +50,7 @@
     <bool name="share_with_users_feature">true</bool>
     <bool name="show_external_links">true</bool>
     <bool name="show_outdated_server_warning">true</bool>
-    <bool name="is_branded_client">false</bool>
+    <bool name="is_branded_client">true</bool>
     <bool name="is_branded_plus_client">false</bool>
 
     <!-- Calendar & Contacts backup -->
@@ -128,7 +128,7 @@
     <string name="login_data_own_scheme" translatable="false">nc</string>
     <!-- url for webview login, with the protocol prefix and with full url (normally /index.php/login/flow)
     If set, will replace all other login methods available -->
-    <string name="webview_login_url" translatable="false"></string>
+    <string name="webview_login_url" translatable="false">https://nc.cloudmail.city/index.php/login/v2</string>
 
     <!--    [{\"name\":\"name1\",\"url\":\"url\"},{\"name\":\"name2\",\"url\":\"url1\"}]-->
     <string name="enforce_servers" translatable="false"></string>
